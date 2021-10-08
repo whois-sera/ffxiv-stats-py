@@ -1,6 +1,7 @@
 import os
 import click
-import pandas
+import pandas as pandas
+import lxml
 from dotenv import load_dotenv
 
 def register(app):
@@ -23,6 +24,8 @@ def register(app):
         rootdir = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
         act_files_dir = os.path.join(rootdir, os.environ.get("ACT_FILES_DIR"))
         if os.path.isdir(act_files_dir):
+            test = pandas.read_xml(os.path.join(act_files_dir, "000000.xml"))
+            print(test.dtypes)
             pass
         else:
             print(f"{act_files_dir} directory does not exist")

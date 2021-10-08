@@ -1,8 +1,8 @@
 """empty message
 
-Revision ID: 46f08bfc5ecb
+Revision ID: b27a9cac48fd
 Revises: 
-Create Date: 2021-10-08 10:05:47.704006
+Create Date: 2021-10-08 13:37:47.373063
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '46f08bfc5ecb'
+revision = 'b27a9cac48fd'
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -44,9 +44,9 @@ def upgrade():
     sa.Column('cureDisplels', sa.Integer(), nullable=True),
     sa.Column('powerDrain', sa.Integer(), nullable=True),
     sa.Column('powerReplanish', sa.Integer(), nullable=True),
-    sa.Column('dps', sa.Integer(), nullable=True),
-    sa.Column('encDps', sa.Integer(), nullable=True),
-    sa.Column('encHps', sa.Integer(), nullable=True),
+    sa.Column('dps', sa.Float(), nullable=True),
+    sa.Column('encDps', sa.Float(), nullable=True),
+    sa.Column('encHps', sa.Float(), nullable=True),
     sa.Column('hits', sa.Integer(), nullable=True),
     sa.Column('critHits', sa.Integer(), nullable=True),
     sa.Column('blocked', sa.Integer(), nullable=True),
@@ -55,7 +55,7 @@ def upgrade():
     sa.Column('healTaken', sa.Integer(), nullable=True),
     sa.Column('damageTaken', sa.Integer(), nullable=True),
     sa.Column('death', sa.Integer(), nullable=True),
-    sa.Column('toHot', sa.Integer(), nullable=True),
+    sa.Column('toHit', sa.Float(), nullable=True),
     sa.Column('critDamagePerc', sa.Integer(), nullable=True),
     sa.Column('critHealPerc', sa.Integer(), nullable=True),
     sa.Column('critTypes', sa.String(length=64), nullable=True),
@@ -64,7 +64,7 @@ def upgrade():
     sa.Column('job', sa.String(length=64), nullable=True),
     sa.Column('ParryPct', sa.Integer(), nullable=True),
     sa.Column('BlockPct', sa.Integer(), nullable=True),
-    sa.Column('IncToHit', sa.Integer(), nullable=True),
+    sa.Column('IncToHit', sa.Float(), nullable=True),
     sa.Column('DirectHitPct', sa.Integer(), nullable=True),
     sa.Column('DirectHitCount', sa.Integer(), nullable=True),
     sa.Column('CritDirectHitCount', sa.Integer(), nullable=True),

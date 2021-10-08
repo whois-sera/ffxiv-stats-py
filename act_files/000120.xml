@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EncounterTable Name="Le Magnat - [03:18] 19:33:18">
+    <Row>
+        <EncId>10e94d7c</EncId>
+        <Ally>T</Ally>
+        <Name>Carbuncle Rubis (Naaru Segawa)</Name>
+        <StartTime>2020-11-07 19:33:22</StartTime>
+        <EndTime>2020-11-07 19:36:23</EndTime>
+        <Duration>181</Duration>
+        <Damage>389859</Damage>
+        <DamagePerc>6%</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>0%</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>2153.91712707182</DPS>
+        <EncDPS>1968.98484848485</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>63</Hits>
+        <CritHits>10</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>63</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>16%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>NaN</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>23,8%</DirectHitPct>
+        <DirectHitCount>15</DirectHitCount>
+        <CritDirectHitCount>3</CritDirectHitCount>
+        <CritDirectHitPct>4,8%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>10e94d7c</EncId>
+        <Ally>T</Ally>
+        <Name>Demi-Phénix (Naaru Segawa)</Name>
+        <StartTime>2020-11-07 19:33:38</StartTime>
+        <EndTime>2020-11-07 19:36:01</EndTime>
+        <Duration>143</Duration>
+        <Damage>270558</Damage>
+        <DamagePerc>4%</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>19121</Healed>
+        <HealedPerc>1%</HealedPerc>
+        <CritHeals>5</CritHeals>
+        <Heals>35</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>1892.01398601399</DPS>
+        <EncDPS>1366.45454545455</EncDPS>
+        <EncHPS>96.5707070707071</EncHPS>
+        <Hits>19</Hits>
+        <CritHits>1</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>19</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>5%</CritDamPerc>
+        <CritHealPerc>14%</CritHealPerc>
+        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>NaN</IncToHit>
+        <OverHealPct>100%</OverHealPct>
+        <DirectHitPct>47,4%</DirectHitPct>
+        <DirectHitCount>9</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0,0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>10e94d7c</EncId>
+        <Ally>T</Ally>
+        <Name>Dezaxe Cygwin</Name>
+        <StartTime>2020-11-07 19:33:18</StartTime>
+        <EndTime>2020-11-07 19:36:52</EndTime>
+        <Duration>214</Duration>
+        <Damage>1372213</Damage>
+        <DamagePerc>23%</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>202307</Healed>
+        <HealedPerc>13%</HealedPerc>
+        <CritHeals>3</CritHeals>
+        <Heals>30</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>6412.21028037383</DPS>
+        <EncDPS>6930.36868686869</EncDPS>
+        <EncHPS>1021.75252525253</EncHPS>
+        <Hits>213</Hits>
+        <CritHits>26</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>213</Swings>
+        <HealsTaken>925241</HealsTaken>
+        <DamageTaken>716448</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>12%</CritDamPerc>
+        <CritHealPerc>10%</CritHealPerc>
+        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job>Gnb</Job>
+        <ParryPct>15%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100,00</IncToHit>
+        <OverHealPct>21%</OverHealPct>
+        <DirectHitPct>1,4%</DirectHitPct>
+        <DirectHitCount>3</DirectHitCount>
+        <CritDirectHitCount>1</CritDirectHitCount>
+        <CritDirectHitPct>0,5%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>10e94d7c</EncId>
+        <Ally>F</Ally>
+        <Name>Le Magnat</Name>
+        <StartTime>2020-11-07 19:33:18</StartTime>
+        <EndTime>2020-11-07 19:36:37</EndTime>
+        <Duration>199</Duration>
+        <Damage>1419079</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>1</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>7131.05025125628</DPS>
+        <EncDPS>7167.06565656566</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>83</Hits>
+        <CritHits>0</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>83</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>5939212</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>0%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>-</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100,00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0,0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>10e94d7c</EncId>
+        <Ally>T</Ally>
+        <Name>Momoko Azami</Name>
+        <StartTime>2020-11-07 19:33:19</StartTime>
+        <EndTime>2020-11-07 19:36:36</EndTime>
+        <Duration>197</Duration>
+        <Damage>757277</Damage>
+        <DamagePerc>12%</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>1322469</Healed>
+        <HealedPerc>85%</HealedPerc>
+        <CritHeals>19</CritHeals>
+        <Heals>139</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>4800</PowerReplenish>
+        <DPS>3844.04568527919</DPS>
+        <EncDPS>3824.63131313131</EncDPS>
+        <EncHPS>6679.13636363636</EncHPS>
+        <Hits>81</Hits>
+        <CritHits>14</CritHits>
+        <Blocked>1</Blocked>
+        <Misses>0</Misses>
+        <Swings>82</Swings>
+        <HealsTaken>224883</HealsTaken>
+        <DamageTaken>188582</DamageTaken>
+        <Deaths>1</Deaths>
+        <ToHit>98.78049</ToHit>
+        <CritDamPerc>17%</CritDamPerc>
+        <CritHealPerc>14%</CritHealPerc>
+        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job>Ast</Job>
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>85,71</IncToHit>
+        <OverHealPct>37%</OverHealPct>
+        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0,0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>10e94d7c</EncId>
+        <Ally>T</Ally>
+        <Name>Oslo Dunord</Name>
+        <StartTime>2020-11-07 19:33:20</StartTime>
+        <EndTime>2020-11-07 19:36:25</EndTime>
+        <Duration>185</Duration>
+        <Damage>1566204</Damage>
+        <DamagePerc>26%</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>0%</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>8465.96756756757</DPS>
+        <EncDPS>7910.12121212121</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>150</Hits>
+        <CritHits>15</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>150</Swings>
+        <HealsTaken>362576</HealsTaken>
+        <DamageTaken>326405</DamageTaken>
+        <Deaths>1</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>10%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job>Sam</Job>
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100,00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>38,0%</DirectHitPct>
+        <DirectHitCount>57</DirectHitCount>
+        <CritDirectHitCount>8</CritDirectHitCount>
+        <CritDirectHitPct>5,3%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>10e94d7c</EncId>
+        <Ally>F</Ally>
+        <Name>Unknown</Name>
+        <StartTime>2020-11-07 19:33:43</StartTime>
+        <EndTime>2020-11-07 19:36:24</EndTime>
+        <Duration>161</Duration>
+        <Damage>0</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>59535</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>5</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>0</DPS>
+        <EncDPS>0</EncDPS>
+        <EncHPS>300.681818181818</EncHPS>
+        <Hits>0</Hits>
+        <CritHits>0</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>0</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>NaN</ToHit>
+        <CritDamPerc>0%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>-</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>NaN</IncToHit>
+        <OverHealPct>69%</OverHealPct>
+        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0,0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>10e94d7c</EncId>
+        <Ally>T</Ally>
+        <Name>YOU</Name>
+        <StartTime>2020-11-07 19:33:22</StartTime>
+        <EndTime>2020-11-07 19:36:36</EndTime>
+        <Duration>194</Duration>
+        <Damage>1583101</Damage>
+        <DamagePerc>26%</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>0%</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>8160.31443298969</DPS>
+        <EncDPS>7995.4595959596</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>196</Hits>
+        <CritHits>39</CritHits>
+        <Blocked>1</Blocked>
+        <Misses>0</Misses>
+        <Swings>197</Swings>
+        <HealsTaken>90732</HealsTaken>
+        <DamageTaken>187644</DamageTaken>
+        <Deaths>1</Deaths>
+        <ToHit>99.49239</ToHit>
+        <CritDamPerc>20%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job>Smn</Job>
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>85,71</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>25,9%</DirectHitPct>
+        <DirectHitCount>51</DirectHitCount>
+        <CritDirectHitCount>10</CritDirectHitCount>
+        <CritDirectHitPct>5,1%</CritDirectHitPct>
+    </Row>
+</EncounterTable>

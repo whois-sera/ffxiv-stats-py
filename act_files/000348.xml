@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EncounterTable Name="Berserker Spectral - [07:39] 23:28:26">
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>F</Ally>
+        <Name>Barde Spectral</Name>
+        <StartTime>2020-10-11 23:30:56</StartTime>
+        <EndTime>2020-10-11 23:31:38</EndTime>
+        <Duration>42</Duration>
+        <Damage>54641</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>1300.97619047619</DPS>
+        <EncDPS>119.043572984749</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>14</Hits>
+        <CritHits>1</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>14</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>529865</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>7%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100.00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>F</Ally>
+        <Name>Berserker Spectral</Name>
+        <StartTime>2020-10-11 23:32:03</StartTime>
+        <EndTime>2020-10-11 23:36:04</EndTime>
+        <Duration>241</Duration>
+        <Damage>1675834</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>1</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>6953.66804979253</DPS>
+        <EncDPS>3651.05446623094</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>82</Hits>
+        <CritHits>5</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>7</Misses>
+        <Swings>89</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>7494085</DamageTaken>
+        <Deaths>1</Deaths>
+        <ToHit>92.13483</ToHit>
+        <CritDamPerc>6%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100.00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>T</Ally>
+        <Name>Blacho Witsch</Name>
+        <StartTime>2020-10-11 23:28:27</StartTime>
+        <EndTime>2020-10-11 23:36:05</EndTime>
+        <Duration>458</Duration>
+        <Damage>3769091</Damage>
+        <DamagePerc>25%</DamagePerc>
+        <Kills>3</Kills>
+        <Healed>3044</Healed>
+        <HealedPerc>0%</HealedPerc>
+        <CritHeals>1</CritHeals>
+        <Heals>3</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>8229.45633187773</DPS>
+        <EncDPS>8211.52723311547</EncDPS>
+        <EncHPS>6.6318082788671</EncHPS>
+        <Hits>780</Hits>
+        <CritHits>170</CritHits>
+        <Blocked>3</Blocked>
+        <Misses>0</Misses>
+        <Swings>783</Swings>
+        <HealsTaken>1003560</HealsTaken>
+        <DamageTaken>493969</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>99.61685</ToHit>
+        <CritDamPerc>22%</CritDamPerc>
+        <CritHealPerc>33%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job>Smn</Job>
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>80.00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>23.0%</DirectHitPct>
+        <DirectHitCount>180</DirectHitCount>
+        <CritDirectHitCount>28</CritDirectHitCount>
+        <CritDirectHitPct>3.6%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>T</Ally>
+        <Name>Carbuncle Émeraude (Naaru Segawa)</Name>
+        <StartTime>2020-10-11 23:28:38</StartTime>
+        <EndTime>2020-10-11 23:31:28</EndTime>
+        <Duration>170</Duration>
+        <Damage>516477</Damage>
+        <DamagePerc>3%</DamagePerc>
+        <Kills>1</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>0%</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>3038.1</DPS>
+        <EncDPS>1125.22222222222</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>174</Hits>
+        <CritHits>32</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>174</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>18%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100.00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>17.8%</DirectHitPct>
+        <DirectHitCount>31</DirectHitCount>
+        <CritDirectHitCount>9</CritDirectHitCount>
+        <CritDirectHitPct>5.2%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>T</Ally>
+        <Name>Carbuncle Rubis (Naaru Segawa)</Name>
+        <StartTime>2020-10-11 23:32:08</StartTime>
+        <EndTime>2020-10-11 23:36:04</EndTime>
+        <Duration>236</Duration>
+        <Damage>480801</Damage>
+        <DamagePerc>3%</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>0%</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>2037.29237288136</DPS>
+        <EncDPS>1047.49673202614</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>67</Hits>
+        <CritHits>12</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>67</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>18%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>NaN</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>16.4%</DirectHitPct>
+        <DirectHitCount>11</DirectHitCount>
+        <CritDirectHitCount>1</CritDirectHitCount>
+        <CritDirectHitPct>1.5%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>F</Ally>
+        <Name>Chevalier Dragon Spectral</Name>
+        <StartTime>2020-10-11 23:28:34</StartTime>
+        <EndTime>2020-10-11 23:29:43</EndTime>
+        <Duration>69</Duration>
+        <Damage>298647</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>4328.21739130435</DPS>
+        <EncDPS>650.647058823529</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>63</Hits>
+        <CritHits>4</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>63</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>1322816</DamageTaken>
+        <Deaths>2</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>6%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100.00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>F</Ally>
+        <Name>Chevalier Sacré Spectral</Name>
+        <StartTime>2020-10-11 23:31:01</StartTime>
+        <EndTime>2020-10-11 23:31:14</EndTime>
+        <Duration>13</Duration>
+        <Damage>0</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>0</DPS>
+        <EncDPS>0</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>0</Hits>
+        <CritHits>0</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>0</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>219159</DamageTaken>
+        <Deaths>1</Deaths>
+        <ToHit>NaN</ToHit>
+        <CritDamPerc>0%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>-</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100.00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>T</Ally>
+        <Name>Demi-Phénix (Blacho Witsch)</Name>
+        <StartTime>2020-10-11 23:29:35</StartTime>
+        <EndTime>2020-10-11 23:35:54</EndTime>
+        <Duration>379</Duration>
+        <Damage>398885</Damage>
+        <DamagePerc>2%</DamagePerc>
+        <Kills>1</Kills>
+        <Healed>63490</Healed>
+        <HealedPerc>1%</HealedPerc>
+        <CritHeals>24</CritHeals>
+        <Heals>91</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>1052.46701846966</DPS>
+        <EncDPS>869.030501089325</EncDPS>
+        <EncHPS>138.322440087146</EncHPS>
+        <Hits>21</Hits>
+        <CritHits>4</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>21</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>19%</CritDamPerc>
+        <CritHealPerc>26%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>NaN</IncToHit>
+        <OverHealPct>79%</OverHealPct>
+        <DirectHitPct>19.0%</DirectHitPct>
+        <DirectHitCount>4</DirectHitCount>
+        <CritDirectHitCount>1</CritDirectHitCount>
+        <CritDirectHitPct>4.8%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>T</Ally>
+        <Name>Demi-Phénix (Naaru Segawa)</Name>
+        <StartTime>2020-10-11 23:30:20</StartTime>
+        <EndTime>2020-10-11 23:36:24</EndTime>
+        <Duration>364</Duration>
+        <Damage>618576</Damage>
+        <DamagePerc>4%</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>65186</Healed>
+        <HealedPerc>1%</HealedPerc>
+        <CritHeals>20</CritHeals>
+        <Heals>90</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>1699.38461538462</DPS>
+        <EncDPS>1347.66013071895</EncDPS>
+        <EncHPS>142.0174291939</EncHPS>
+        <Hits>33</Hits>
+        <CritHits>7</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>33</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>21%</CritDamPerc>
+        <CritHealPerc>22%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>NaN</IncToHit>
+        <OverHealPct>72%</OverHealPct>
+        <DirectHitPct>27.3%</DirectHitPct>
+        <DirectHitCount>9</DirectHitCount>
+        <CritDirectHitCount>2</CritDirectHitCount>
+        <CritDirectHitPct>6.1%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>F</Ally>
+        <Name>Éboulis</Name>
+        <StartTime>2020-10-11 23:33:19</StartTime>
+        <EndTime>2020-10-11 23:34:39</EndTime>
+        <Duration>80</Duration>
+        <Damage>122903</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>1536.2875</DPS>
+        <EncDPS>267.762527233115</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>8</Hits>
+        <CritHits>0</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>8</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>0%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>-</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>NaN</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>T</Ally>
+        <Name>Echo Khama</Name>
+        <StartTime>2020-10-11 23:28:26</StartTime>
+        <EndTime>2020-10-11 23:36:08</EndTime>
+        <Duration>462</Duration>
+        <Damage>3887528</Damage>
+        <DamagePerc>26%</DamagePerc>
+        <Kills>2</Kills>
+        <Healed>77020</Healed>
+        <HealedPerc>1%</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>5</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>43300</PowerReplenish>
+        <DPS>8414.56277056277</DPS>
+        <EncDPS>8469.55991285403</EncDPS>
+        <EncHPS>167.799564270153</EncHPS>
+        <Hits>687</Hits>
+        <CritHits>135</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>687</Swings>
+        <HealsTaken>2861456</HealsTaken>
+        <DamageTaken>1408868</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>20%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job>Pld</Job>
+        <ParryPct>6%</ParryPct>
+        <BlockPct>33%</BlockPct>
+        <IncToHit>99.22</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>10.3%</DirectHitPct>
+        <DirectHitCount>71</DirectHitCount>
+        <CritDirectHitCount>16</CritDirectHitCount>
+        <CritDirectHitPct>2.3%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>T</Ally>
+        <Name>Limit Break</Name>
+        <StartTime>2020-10-11 23:35:44</StartTime>
+        <EndTime>2020-10-11 23:35:44</EndTime>
+        <Duration>0</Duration>
+        <Damage>238995</Damage>
+        <DamagePerc>1%</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>0%</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>∞</DPS>
+        <EncDPS>520.686274509804</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>1</Hits>
+        <CritHits>0</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>1</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>0%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>-</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>NaN</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>F</Ally>
+        <Name>Lutteur Spectral</Name>
+        <StartTime>2020-10-11 23:28:28</StartTime>
+        <EndTime>2020-10-11 23:29:25</EndTime>
+        <Duration>57</Duration>
+        <Damage>105612</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>1852.84210526316</DPS>
+        <EncDPS>230.091503267974</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>26</Hits>
+        <CritHits>0</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>26</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>601480</DamageTaken>
+        <Deaths>1</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>0%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>-</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100.00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>F</Ally>
+        <Name>Mage Blanc Spectral</Name>
+        <StartTime>2020-10-11 23:28:33</StartTime>
+        <EndTime>2020-10-11 23:30:33</EndTime>
+        <Duration>120</Duration>
+        <Damage>91492</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>762.433333333333</DPS>
+        <EncDPS>199.328976034858</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>19</Hits>
+        <CritHits>1</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>19</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>1018980</DamageTaken>
+        <Deaths>2</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>5%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100.00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>F</Ally>
+        <Name>Mage Noir Spectral</Name>
+        <StartTime>2020-10-11 23:28:35</StartTime>
+        <EndTime>2020-10-11 23:31:35</EndTime>
+        <Duration>180</Duration>
+        <Damage>123991</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>688.838888888889</DPS>
+        <EncDPS>270.132897603486</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>26</Hits>
+        <CritHits>0</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>26</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>1055617</DamageTaken>
+        <Deaths>2</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>0%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>-</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100.00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>T</Ally>
+        <Name>Momoko Azami</Name>
+        <StartTime>2020-10-11 23:28:27</StartTime>
+        <EndTime>2020-10-11 23:36:18</EndTime>
+        <Duration>471</Duration>
+        <Damage>866024</Damage>
+        <DamagePerc>5%</DamagePerc>
+        <Kills>2</Kills>
+        <Healed>5596735</Healed>
+        <HealedPerc>96%</HealedPerc>
+        <CritHeals>88</CritHeals>
+        <Heals>587</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>11200</PowerReplenish>
+        <DPS>1838.69214437367</DPS>
+        <EncDPS>1886.76252723312</EncDPS>
+        <EncHPS>12193.3224400871</EncHPS>
+        <Hits>125</Hits>
+        <CritHits>21</CritHits>
+        <Blocked>2</Blocked>
+        <Misses>0</Misses>
+        <Swings>127</Swings>
+        <HealsTaken>1097296</HealsTaken>
+        <DamageTaken>414597</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>98.4252</ToHit>
+        <CritDamPerc>17%</CritDamPerc>
+        <CritHealPerc>15%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job>Ast</Job>
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>84.00</IncToHit>
+        <OverHealPct>53%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>F</Ally>
+        <Name>Mystagogue Spectrale</Name>
+        <StartTime>2020-10-11 23:30:02</StartTime>
+        <EndTime>2020-10-11 23:30:28</EndTime>
+        <Duration>26</Duration>
+        <Damage>27077</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>1041.42307692308</DPS>
+        <EncDPS>58.9912854030501</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>7</Hits>
+        <CritHits>0</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>7</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>500757</DamageTaken>
+        <Deaths>1</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>0%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>-</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100.00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>F</Ally>
+        <Name>Samouraï Spectral</Name>
+        <StartTime>2020-10-11 23:28:27</StartTime>
+        <EndTime>2020-10-11 23:30:49</EndTime>
+        <Duration>142</Duration>
+        <Damage>169580</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>1194.22535211268</DPS>
+        <EncDPS>369.455337690632</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>41</Hits>
+        <CritHits>1</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>41</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>1303928</DamageTaken>
+        <Deaths>1</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>2%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100.00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>F</Ally>
+        <Name>Samouraï Spectrale</Name>
+        <StartTime>2020-10-11 23:30:05</StartTime>
+        <EndTime>2020-10-11 23:30:46</EndTime>
+        <Duration>41</Duration>
+        <Damage>55105</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>1344.0243902439</DPS>
+        <EncDPS>120.054466230937</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>12</Hits>
+        <CritHits>0</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>12</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>616171</DamageTaken>
+        <Deaths>1</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>0%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>-</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100.00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>F</Ally>
+        <Name>Unknown</Name>
+        <StartTime>2020-10-11 23:28:51</StartTime>
+        <EndTime>2020-10-11 23:34:48</EndTime>
+        <Duration>357</Duration>
+        <Damage>100232</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>66142</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>10</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>280.761904761905</DPS>
+        <EncDPS>218.37037037037</EncDPS>
+        <EncHPS>144.100217864924</EncHPS>
+        <Hits>13</Hits>
+        <CritHits>0</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>13</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>0%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>-</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>NaN</IncToHit>
+        <OverHealPct>42%</OverHealPct>
+        <DirectHitPct>0.0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>ab4eccb1</EncId>
+        <Ally>T</Ally>
+        <Name>YOU</Name>
+        <StartTime>2020-10-11 23:28:36</StartTime>
+        <EndTime>2020-10-11 23:36:05</EndTime>
+        <Duration>449</Duration>
+        <Damage>3886481</Damage>
+        <DamagePerc>26%</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>0%</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>8655.85968819599</DPS>
+        <EncDPS>8467.2788671024</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>635</Hits>
+        <CritHits>129</CritHits>
+        <Blocked>2</Blocked>
+        <Misses>0</Misses>
+        <Swings>637</Swings>
+        <HealsTaken>909305</HealsTaken>
+        <DamageTaken>507680</DamageTaken>
+        <Deaths>1</Deaths>
+        <ToHit>99.68603</ToHit>
+        <CritDamPerc>20%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job>Smn</Job>
+        <ParryPct>50%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>83.33</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>28.1%</DirectHitPct>
+        <DirectHitCount>179</DirectHitCount>
+        <CritDirectHitCount>43</CritDirectHitCount>
+        <CritDirectHitPct>6.8%</CritDirectHitPct>
+    </Row>
+</EncounterTable>

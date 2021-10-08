@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EncounterTable Name="Yovra Des Abysses - [01:14] 12:29:41">
+    <Row>
+        <EncId>58212ea6</EncId>
+        <Ally>T</Ally>
+        <Name>Daddy Fahr</Name>
+        <StartTime>2020-11-15 12:29:41</StartTime>
+        <EndTime>2020-11-15 12:30:55</EndTime>
+        <Duration>74</Duration>
+        <Damage>833559</Damage>
+        <DamagePerc>31%</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>0%</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>11264.3108108108</DPS>
+        <EncDPS>11264.3108108108</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>106</Hits>
+        <CritHits>25</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>106</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>24%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job>Brd</Job>
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>NaN</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>53,8%</DirectHitPct>
+        <DirectHitCount>57</DirectHitCount>
+        <CritDirectHitCount>16</CritDirectHitCount>
+        <CritDirectHitPct>15,1%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>58212ea6</EncId>
+        <Ally>F</Ally>
+        <Name>Dagonite Des Abysses</Name>
+        <StartTime>2020-11-15 12:29:45</StartTime>
+        <EndTime>2020-11-15 12:30:07</EndTime>
+        <Duration>22</Duration>
+        <Damage>35211</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>1600.5</DPS>
+        <EncDPS>475.824324324324</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>9</Hits>
+        <CritHits>0</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>9</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>1332878</DamageTaken>
+        <Deaths>2</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>0%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>-</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100,00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0,0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>58212ea6</EncId>
+        <Ally>T</Ally>
+        <Name>Dragult Ironian</Name>
+        <StartTime>2020-11-15 12:29:44</StartTime>
+        <EndTime>2020-11-15 12:31:09</EndTime>
+        <Duration>85</Duration>
+        <Damage>310292</Damage>
+        <DamagePerc>11%</DamagePerc>
+        <Kills>1</Kills>
+        <Healed>285687</Healed>
+        <HealedPerc>80%</HealedPerc>
+        <CritHeals>8</CritHeals>
+        <Heals>28</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>2400</PowerReplenish>
+        <DPS>3650.49411764706</DPS>
+        <EncDPS>4193.13513513513</EncDPS>
+        <EncHPS>3860.63513513513</EncHPS>
+        <Hits>23</Hits>
+        <CritHits>4</CritHits>
+        <Blocked>1</Blocked>
+        <Misses>0</Misses>
+        <Swings>24</Swings>
+        <HealsTaken>60255</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>95.83333</ToHit>
+        <CritDamPerc>17%</CritDamPerc>
+        <CritHealPerc>29%</CritHealPerc>
+        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job>Ast</Job>
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>0,00</IncToHit>
+        <OverHealPct>79%</OverHealPct>
+        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0,0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>58212ea6</EncId>
+        <Ally>T</Ally>
+        <Name>Étoile Terrestre (Dragult Ironian)</Name>
+        <StartTime>2020-11-15 12:30:42</StartTime>
+        <EndTime>2020-11-15 12:30:42</EndTime>
+        <Duration>0</Duration>
+        <Damage>9184</Damage>
+        <DamagePerc>0%</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>33479</Healed>
+        <HealedPerc>9%</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>1</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>∞</DPS>
+        <EncDPS>124.108108108108</EncDPS>
+        <EncHPS>452.418918918919</EncHPS>
+        <Hits>1</Hits>
+        <CritHits>0</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>1</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>0</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>0%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>-</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>NaN</IncToHit>
+        <OverHealPct>41%</OverHealPct>
+        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0,0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>58212ea6</EncId>
+        <Ally>T</Ally>
+        <Name>Momoko Azami</Name>
+        <StartTime>2020-11-15 12:29:42</StartTime>
+        <EndTime>2020-11-15 12:30:54</EndTime>
+        <Duration>72</Duration>
+        <Damage>1108266</Damage>
+        <DamagePerc>41%</DamagePerc>
+        <Kills>1</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>0%</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>15392.5833333333</DPS>
+        <EncDPS>14976.5675675676</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>21</Hits>
+        <CritHits>8</CritHits>
+        <Blocked>2</Blocked>
+        <Misses>0</Misses>
+        <Swings>23</Swings>
+        <HealsTaken>60304</HealsTaken>
+        <DamageTaken>10017</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>91.30435</ToHit>
+        <CritDamPerc>38%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job>Blm</Job>
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>33,33</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>26,1%</DirectHitPct>
+        <DirectHitCount>6</DirectHitCount>
+        <CritDirectHitCount>2</CritDirectHitCount>
+        <CritDirectHitPct>8,7%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>58212ea6</EncId>
+        <Ally>T</Ally>
+        <Name>YOU</Name>
+        <StartTime>2020-11-15 12:29:41</StartTime>
+        <EndTime>2020-11-15 12:30:55</EndTime>
+        <Duration>74</Duration>
+        <Damage>404661</Damage>
+        <DamagePerc>15%</DamagePerc>
+        <Kills>1</Kills>
+        <Healed>34439</Healed>
+        <HealedPerc>9%</HealedPerc>
+        <CritHeals>2</CritHeals>
+        <Heals>5</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>5468.39189189189</DPS>
+        <EncDPS>5468.39189189189</EncDPS>
+        <EncHPS>465.391891891892</EncHPS>
+        <Hits>59</Hits>
+        <CritHits>14</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>59</Swings>
+        <HealsTaken>233046</HealsTaken>
+        <DamageTaken>162949</DamageTaken>
+        <Deaths>0</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>24%</CritDamPerc>
+        <CritHealPerc>40%</CritHealPerc>
+        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job>Gnb</Job>
+        <ParryPct>11%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100,00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0,0%</CritDirectHitPct>
+    </Row>
+    <Row>
+        <EncId>58212ea6</EncId>
+        <Ally>F</Ally>
+        <Name>Yovra Des Abysses</Name>
+        <StartTime>2020-11-15 12:30:21</StartTime>
+        <EndTime>2020-11-15 12:30:51</EndTime>
+        <Duration>30</Duration>
+        <Damage>137755</Damage>
+        <DamagePerc>--</DamagePerc>
+        <Kills>0</Kills>
+        <Healed>0</Healed>
+        <HealedPerc>--</HealedPerc>
+        <CritHeals>0</CritHeals>
+        <Heals>0</Heals>
+        <CureDispels>0</CureDispels>
+        <PowerDrain>0</PowerDrain>
+        <PowerReplenish>0</PowerReplenish>
+        <DPS>4591.83333333333</DPS>
+        <EncDPS>1861.55405405405</EncDPS>
+        <EncHPS>0</EncHPS>
+        <Hits>10</Hits>
+        <CritHits>1</CritHits>
+        <Blocked>0</Blocked>
+        <Misses>0</Misses>
+        <Swings>10</Swings>
+        <HealsTaken>0</HealsTaken>
+        <DamageTaken>1333084</DamageTaken>
+        <Deaths>1</Deaths>
+        <ToHit>100</ToHit>
+        <CritDamPerc>10%</CritDamPerc>
+        <CritHealPerc>0%</CritHealPerc>
+        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <ThreatStr>+(0)0/-(0)0</ThreatStr>
+        <ThreatDelta>0</ThreatDelta>
+        <Job />
+        <ParryPct>0%</ParryPct>
+        <BlockPct>0%</BlockPct>
+        <IncToHit>100,00</IncToHit>
+        <OverHealPct>0%</OverHealPct>
+        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitCount>0</DirectHitCount>
+        <CritDirectHitCount>0</CritDirectHitCount>
+        <CritDirectHitPct>0,0%</CritDirectHitPct>
+    </Row>
+</EncounterTable>

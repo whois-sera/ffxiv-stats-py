@@ -18,11 +18,11 @@ def create_app(config_class=Config):
     db.init_app(app)
     migrate.init_app(app, db)
 
-    from app.error import bp as error_bp
-    app.register_blueprint(error_bp)
-
     from app.hello import bp as hello_bp
     app.register_blueprint(hello_bp)
+
+    from app.main import bp as main_bp
+    app.register_blueprint(main_bp)
 
     if not os.path.exists('logs'):
         os.mkdir('logs')

@@ -41,3 +41,5 @@ nosetests.xml
 
 # Installer logs
 pip-log.txt
+
+doc.md

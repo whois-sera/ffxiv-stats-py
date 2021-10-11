@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+ <body>
+  <h1>{{ role }}</h1>
+  <div id="fig" class="fig"></div>
+</body>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type="text/javascript">
+  var fig = {{ figJson | safe }};
+  Plotly.newPlot("fig", fig);
+</script>
+</html>

@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
  <body>
-  <div id="figHPS" class="figHPS"></div>
   <div id="figDPS" class="figDPS"></div>
+  <div id="figHPS" class="figHPS"></div>
 </body>
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 <script type="text/javascript">
   var figDPS = {{ figDPS | safe }};
   var figHPS = {{ figHPS | safe }};
-  Plotly.newPlot("figHPS", figHPS);
   Plotly.newPlot("figDPS", figDPS);
+  Plotly.newPlot("figHPS", figHPS);
 </script>
 </html>

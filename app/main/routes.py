@@ -7,39 +7,62 @@ import pandas as pandas
 import json
 import plotly
 import plotly.express as px
+from app.main.graph_maker import oneStatAllJobsGraph, oneStatAllJobOfRoleGraph, oneStatOneJobGraph
 
 
 @bp.route("/")
-@bp.route("/home")
 def index():
-    """"""
+    """Render a view that display graphs of mean DPS and HPS for each job, sort by role"""
 
-    jobs = Role.query.with_entities(Role.Job).all()
-    return jsonify(jobs)
+    # Get datas from DB
+    logs = pandas.read_sql(LogEntry.query
+                           .join(Role, (Role.Job == LogEntry.Job))
+                           .with_entities(LogEntry.Job, LogEntry.EncDPS, LogEntry.EncHPS, Role.Role)
+                           .filter(LogEntry.Ally.like("T"))
+                           .filter(LogEntry.Job.notlike("0"))
+                           .statement,
+                           con=db.engine)
+
+    figDPS = oneStatAllJobsGraph(logs, "EncDPS")
+    figHPS = oneStatAllJobsGraph(logs, "EncHPS")
+
+    return render_template("main/index.html",
+                           figDPS=figDPS,
+                           figHPS=figHPS)
 
 
 @bp.route("/role/<role>")
 def graph_role(role):
-    """Display a graph that compare mean of EncDPS for each job of a given role"""
+    """Render a view that display graphs of mean EncDPS and EncHps for each job of a given role"""
 
-    logs = pandas.read_sql(LogEntry.query.join(Role, (Role.Job == LogEntry.Job))
+    logs = pandas.read_sql(LogEntry.query
+                           .join(Role, (Role.Job == LogEntry.Job))
                            .filter(Role.Role.like(role))
                            .order_by(LogEntry.Job)
                            .statement, con=db.engine)
-    logs = logs[["Job", "EncDPS"]].groupby("Job").mean()
-    fig = px.bar(logs, x=logs.index, y="EncDPS")
-    figJson = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-    return render_template("main/role.html", figJson=figJson, role=role)
+
+    figDPS = oneStatAllJobOfRoleGraph(logs, "EncDPS")
+    figHPS = oneStatAllJobOfRoleGraph(logs, "EncHPS")
+
+    return render_template("main/role.html", figDPS=figDPS, figHPS=figHPS)
 
 
 @bp.route("/job/<job>")
-def test(job):
-    """"""
+def graph_job(job):
+    """Render a view that display graphs of mean EncDPS and EncHPS for a given job"""
 
     logs = pandas.read_sql(LogEntry.query
                            .filter(LogEntry.Job.like(job))
                            .statement, con=db.engine)
-    logs = logs[["EncId", "EncDPS", "EncHPS"]]
-    fig = px.line(logs, x="EncId", y="EncDPS")
-    figJson = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-    return render_template("main/job.html", figJson=figJson, job=job)
+
+    figDPS = oneStatOneJobGraph(logs, "EncDPS")
+    figHPS = oneStatOneJobGraph(logs, "EncHPS")
+
+    return render_template("main/job.html", figDPS=figDPS, figHPS=figHPS)
+
+
+@bp.route("/player/<player>/<job>")
+def undef(player, job):
+    """"""
+
+    pass

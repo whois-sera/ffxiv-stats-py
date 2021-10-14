@@ -31,18 +31,18 @@
         <ToHit>100</ToHit>
         <CritDamPerc>27%</CritDamPerc>
         <CritHealPerc>8%</CritHealPerc>
-        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
         <ThreatStr>+(0)0/-(0)0</ThreatStr>
         <ThreatDelta>0</ThreatDelta>
         <Job>War</Job>
         <ParryPct>11%</ParryPct>
         <BlockPct>0%</BlockPct>
-        <IncToHit>100,00</IncToHit>
+        <IncToHit>100.00</IncToHit>
         <OverHealPct>0%</OverHealPct>
-        <DirectHitPct>17,9%</DirectHitPct>
+        <DirectHitPct>17.9%</DirectHitPct>
         <DirectHitCount>46</DirectHitCount>
         <CritDirectHitCount>46</CritDirectHitCount>
-        <CritDirectHitPct>17,9%</CritDirectHitPct>
+        <CritDirectHitPct>17.9%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -75,7 +75,7 @@
         <ToHit>100</ToHit>
         <CritDamPerc>14%</CritDamPerc>
         <CritHealPerc>0%</CritHealPerc>
-        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
         <ThreatStr>+(0)0/-(0)0</ThreatStr>
         <ThreatDelta>0</ThreatDelta>
         <Job />
@@ -83,10 +83,10 @@
         <BlockPct>0%</BlockPct>
         <IncToHit>NaN</IncToHit>
         <OverHealPct>0%</OverHealPct>
-        <DirectHitPct>38,1%</DirectHitPct>
+        <DirectHitPct>38.1%</DirectHitPct>
         <DirectHitCount>8</DirectHitCount>
         <CritDirectHitCount>3</CritDirectHitCount>
-        <CritDirectHitPct>14,3%</CritDirectHitPct>
+        <CritDirectHitPct>14.3%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -127,10 +127,10 @@
         <BlockPct>0%</BlockPct>
         <IncToHit>NaN</IncToHit>
         <OverHealPct>0%</OverHealPct>
-        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitPct>0.0%</DirectHitPct>
         <DirectHitCount>0</DirectHitCount>
         <CritDirectHitCount>0</CritDirectHitCount>
-        <CritDirectHitPct>0,0%</CritDirectHitPct>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -163,18 +163,18 @@
         <ToHit>98.61752</ToHit>
         <CritDamPerc>23%</CritDamPerc>
         <CritHealPerc>0%</CritHealPerc>
-        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
         <ThreatStr>+(0)0/-(0)0</ThreatStr>
         <ThreatDelta>0</ThreatDelta>
         <Job>Blm</Job>
         <ParryPct>0%</ParryPct>
         <BlockPct>0%</BlockPct>
-        <IncToHit>90,32</IncToHit>
+        <IncToHit>90.32</IncToHit>
         <OverHealPct>0%</OverHealPct>
-        <DirectHitPct>47,0%</DirectHitPct>
+        <DirectHitPct>47.0%</DirectHitPct>
         <DirectHitCount>102</DirectHitCount>
         <CritDirectHitCount>26</CritDirectHitCount>
-        <CritDirectHitPct>12,0%</CritDirectHitPct>
+        <CritDirectHitPct>12.0%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -215,10 +215,10 @@
         <BlockPct>0%</BlockPct>
         <IncToHit>NaN</IncToHit>
         <OverHealPct>0%</OverHealPct>
-        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitPct>0.0%</DirectHitPct>
         <DirectHitCount>0</DirectHitCount>
         <CritDirectHitCount>0</CritDirectHitCount>
-        <CritDirectHitPct>0,0%</CritDirectHitPct>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -251,18 +251,18 @@
         <ToHit>96.88889</ToHit>
         <CritDamPerc>22%</CritDamPerc>
         <CritHealPerc>21%</CritHealPerc>
-        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
         <ThreatStr>+(0)0/-(0)0</ThreatStr>
         <ThreatDelta>0</ThreatDelta>
         <Job>Ast</Job>
         <ParryPct>50%</ParryPct>
         <BlockPct>0%</BlockPct>
-        <IncToHit>77,42</IncToHit>
+        <IncToHit>77.42</IncToHit>
         <OverHealPct>37%</OverHealPct>
-        <DirectHitPct>16,9%</DirectHitPct>
+        <DirectHitPct>16.9%</DirectHitPct>
         <DirectHitCount>38</DirectHitCount>
         <CritDirectHitCount>10</CritDirectHitCount>
-        <CritDirectHitPct>4,4%</CritDirectHitPct>
+        <CritDirectHitPct>4.4%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -295,7 +295,7 @@
         <ToHit>100</ToHit>
         <CritDamPerc>40%</CritDamPerc>
         <CritHealPerc>27%</CritHealPerc>
-        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
         <ThreatStr>+(0)0/-(0)0</ThreatStr>
         <ThreatDelta>0</ThreatDelta>
         <Job />
@@ -303,10 +303,10 @@
         <BlockPct>0%</BlockPct>
         <IncToHit>NaN</IncToHit>
         <OverHealPct>59%</OverHealPct>
-        <DirectHitPct>20,0%</DirectHitPct>
+        <DirectHitPct>20.0%</DirectHitPct>
         <DirectHitCount>1</DirectHitCount>
         <CritDirectHitCount>1</CritDirectHitCount>
-        <CritDirectHitPct>20,0%</CritDirectHitPct>
+        <CritDirectHitPct>20.0%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -339,18 +339,18 @@
         <ToHit>100</ToHit>
         <CritDamPerc>15%</CritDamPerc>
         <CritHealPerc>5%</CritHealPerc>
-        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
         <ThreatStr>+(0)0/-(0)0</ThreatStr>
         <ThreatDelta>0</ThreatDelta>
         <Job>Pld</Job>
         <ParryPct>10%</ParryPct>
         <BlockPct>32%</BlockPct>
-        <IncToHit>100,00</IncToHit>
+        <IncToHit>100.00</IncToHit>
         <OverHealPct>17%</OverHealPct>
-        <DirectHitPct>2,6%</DirectHitPct>
+        <DirectHitPct>2.6%</DirectHitPct>
         <DirectHitCount>13</DirectHitCount>
         <CritDirectHitCount>1</CritDirectHitCount>
-        <CritDirectHitPct>0,2%</CritDirectHitPct>
+        <CritDirectHitPct>0.2%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -389,12 +389,12 @@
         <Job />
         <ParryPct>0%</ParryPct>
         <BlockPct>0%</BlockPct>
-        <IncToHit>100,00</IncToHit>
+        <IncToHit>100.00</IncToHit>
         <OverHealPct>0%</OverHealPct>
-        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitPct>0.0%</DirectHitPct>
         <DirectHitCount>0</DirectHitCount>
         <CritDirectHitCount>0</CritDirectHitCount>
-        <CritDirectHitPct>0,0%</CritDirectHitPct>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -435,10 +435,10 @@
         <BlockPct>0%</BlockPct>
         <IncToHit>NaN</IncToHit>
         <OverHealPct>0%</OverHealPct>
-        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitPct>0.0%</DirectHitPct>
         <DirectHitCount>0</DirectHitCount>
         <CritDirectHitCount>0</CritDirectHitCount>
-        <CritDirectHitPct>0,0%</CritDirectHitPct>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -471,18 +471,18 @@
         <ToHit>96.31902</ToHit>
         <CritDamPerc>24%</CritDamPerc>
         <CritHealPerc>0%</CritHealPerc>
-        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
         <ThreatStr>+(0)0/-(0)0</ThreatStr>
         <ThreatDelta>0</ThreatDelta>
         <Job>Blm</Job>
         <ParryPct>0%</ParryPct>
         <BlockPct>0%</BlockPct>
-        <IncToHit>84,21</IncToHit>
+        <IncToHit>84.21</IncToHit>
         <OverHealPct>0%</OverHealPct>
-        <DirectHitPct>25,2%</DirectHitPct>
+        <DirectHitPct>25.2%</DirectHitPct>
         <DirectHitCount>41</DirectHitCount>
         <CritDirectHitCount>5</CritDirectHitCount>
-        <CritDirectHitPct>3,1%</CritDirectHitPct>
+        <CritDirectHitPct>3.1%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -523,10 +523,10 @@
         <BlockPct>0%</BlockPct>
         <IncToHit>NaN</IncToHit>
         <OverHealPct>0%</OverHealPct>
-        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitPct>0.0%</DirectHitPct>
         <DirectHitCount>0</DirectHitCount>
         <CritDirectHitCount>0</CritDirectHitCount>
-        <CritDirectHitPct>0,0%</CritDirectHitPct>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -559,18 +559,18 @@
         <ToHit>100</ToHit>
         <CritDamPerc>15%</CritDamPerc>
         <CritHealPerc>0%</CritHealPerc>
-        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
         <ThreatStr>+(0)0/-(0)0</ThreatStr>
         <ThreatDelta>0</ThreatDelta>
         <Job>Mch</Job>
         <ParryPct>0%</ParryPct>
         <BlockPct>0%</BlockPct>
-        <IncToHit>100,00</IncToHit>
+        <IncToHit>100.00</IncToHit>
         <OverHealPct>0%</OverHealPct>
-        <DirectHitPct>34,2%</DirectHitPct>
+        <DirectHitPct>34.2%</DirectHitPct>
         <DirectHitCount>101</DirectHitCount>
         <CritDirectHitCount>14</CritDirectHitCount>
-        <CritDirectHitPct>4,7%</CritDirectHitPct>
+        <CritDirectHitPct>4.7%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -603,7 +603,7 @@
         <ToHit>NaN</ToHit>
         <CritDamPerc>0%</CritDamPerc>
         <CritHealPerc>6%</CritHealPerc>
-        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
         <ThreatStr>+(0)0/-(0)0</ThreatStr>
         <ThreatDelta>0</ThreatDelta>
         <Job />
@@ -611,10 +611,10 @@
         <BlockPct>0%</BlockPct>
         <IncToHit>NaN</IncToHit>
         <OverHealPct>67%</OverHealPct>
-        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitPct>0.0%</DirectHitPct>
         <DirectHitCount>0</DirectHitCount>
         <CritDirectHitCount>0</CritDirectHitCount>
-        <CritDirectHitPct>0,0%</CritDirectHitPct>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -655,10 +655,10 @@
         <BlockPct>0%</BlockPct>
         <IncToHit>NaN</IncToHit>
         <OverHealPct>46%</OverHealPct>
-        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitPct>0.0%</DirectHitPct>
         <DirectHitCount>0</DirectHitCount>
         <CritDirectHitCount>0</CritDirectHitCount>
-        <CritDirectHitPct>0,0%</CritDirectHitPct>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -691,18 +691,18 @@
         <ToHit>96.92982</ToHit>
         <CritDamPerc>22%</CritDamPerc>
         <CritHealPerc>0%</CritHealPerc>
-        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
         <ThreatStr>+(0)0/-(0)0</ThreatStr>
         <ThreatDelta>0</ThreatDelta>
         <Job>Blm</Job>
         <ParryPct>67%</ParryPct>
         <BlockPct>0%</BlockPct>
-        <IncToHit>77,42</IncToHit>
+        <IncToHit>77.42</IncToHit>
         <OverHealPct>0%</OverHealPct>
-        <DirectHitPct>25,4%</DirectHitPct>
+        <DirectHitPct>25.4%</DirectHitPct>
         <DirectHitCount>58</DirectHitCount>
         <CritDirectHitCount>11</CritDirectHitCount>
-        <CritDirectHitPct>4,8%</CritDirectHitPct>
+        <CritDirectHitPct>4.8%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -743,10 +743,10 @@
         <BlockPct>0%</BlockPct>
         <IncToHit>NaN</IncToHit>
         <OverHealPct>0%</OverHealPct>
-        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitPct>0.0%</DirectHitPct>
         <DirectHitCount>0</DirectHitCount>
         <CritDirectHitCount>0</CritDirectHitCount>
-        <CritDirectHitPct>0,0%</CritDirectHitPct>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
     </Row>
     <Row>
         <EncId>0890464d</EncId>
@@ -779,17 +779,17 @@
         <ToHit>80</ToHit>
         <CritDamPerc>35%</CritDamPerc>
         <CritHealPerc>12%</CritHealPerc>
-        <CritTypes>0,0%L - 0,0%F - 0,0%M</CritTypes>
+        <CritTypes>0.0%L - 0.0%F - 0.0%M</CritTypes>
         <ThreatStr>+(0)0/-(0)0</ThreatStr>
         <ThreatDelta>0</ThreatDelta>
         <Job>Sch</Job>
         <ParryPct>0%</ParryPct>
         <BlockPct>0%</BlockPct>
-        <IncToHit>77,78</IncToHit>
+        <IncToHit>77.78</IncToHit>
         <OverHealPct>30%</OverHealPct>
-        <DirectHitPct>0,0%</DirectHitPct>
+        <DirectHitPct>0.0%</DirectHitPct>
         <DirectHitCount>0</DirectHitCount>
         <CritDirectHitCount>0</CritDirectHitCount>
-        <CritDirectHitPct>0,0%</CritDirectHitPct>
+        <CritDirectHitPct>0.0%</CritDirectHitPct>
     </Row>
 </EncounterTable>

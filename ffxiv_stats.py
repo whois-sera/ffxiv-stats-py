@@ -12,3 +12,7 @@ def make_shell_context():
     """Make some elements available in flask shell"""
 
     return {"db": db, "Encounter": Encounter, "LogEntry": LogEntry, "Role": Role}
+
+
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0')

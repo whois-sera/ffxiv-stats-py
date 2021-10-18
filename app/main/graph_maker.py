@@ -23,8 +23,7 @@ def oneStatAllJobsGraph(df, stat):
                  })
 
     # Return Json version of the graph
-    return json.dumps(fig,
-                      cls=plotly.utils.PlotlyJSONEncoder)
+    return fig
 
 
 def oneStatAllJobOfRoleGraph(df, stat):
@@ -45,8 +44,7 @@ def oneStatAllJobOfRoleGraph(df, stat):
                  })
 
     # Return Json version of the graph
-    return json.dumps(fig,
-                      cls=plotly.utils.PlotlyJSONEncoder)
+    return fig
 
 
 def oneStatOneJobGraph(df, stat):
@@ -65,5 +63,11 @@ def oneStatOneJobGraph(df, stat):
                   })
 
     # Return Json version of the graph
+    return fig
+
+
+def getJsonVersion(fig):
+    """"""
+
     return json.dumps(fig,
                       cls=plotly.utils.PlotlyJSONEncoder)

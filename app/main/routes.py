@@ -7,7 +7,10 @@ import pandas as pandas
 import json
 import plotly
 import plotly.express as px
-from app.main.graph_maker import oneStatAllJobsGraph, oneStatAllJobOfRoleGraph, oneStatOneJobGraph
+from app.main.graph_maker import oneStatAllJobsGraph, oneStatAllJobOfRoleGraph, oneStatOneJobGraph, getJsonVersion
+import os
+
+imgPath = os.path.join(os.path.dirname(__file__), "static/images")
 
 
 @bp.route("/")
@@ -23,12 +26,9 @@ def index():
                            .statement,
                            con=db.engine)
 
-    figDPS = oneStatAllJobsGraph(logs, "EncDPS")
-    figHPS = oneStatAllJobsGraph(logs, "EncHPS")
+    fig = getJsonVersion(oneStatAllJobsGraph(logs, "EncDPS"))
 
-    return render_template("main/index.html",
-                           figDPS=figDPS,
-                           figHPS=figHPS)
+    return fig
 
 
 @bp.route("/role/<role>")
@@ -41,11 +41,9 @@ def graph_role(role):
                            .order_by(LogEntry.Job)
                            .statement, con=db.engine)
 
-    figDPS = oneStatAllJobOfRoleGraph(logs, "EncDPS")
-    figHPS = oneStatAllJobOfRoleGraph(logs, "EncHPS")
+    fig = getJsonVersion(oneStatAllJobOfRoleGraph(logs, "EncDPS"))
 
-    return render_template("main/role.html", figDPS=figDPS, figHPS=figHPS)
-
+    return fig
 
 @bp.route("/job/<job>")
 def graph_job(job):
@@ -55,10 +53,9 @@ def graph_job(job):
                            .filter(LogEntry.Job.like(job))
                            .statement, con=db.engine)
 
-    figDPS = oneStatOneJobGraph(logs, "EncDPS")
-    figHPS = oneStatOneJobGraph(logs, "EncHPS")
+    fig = getJsonVersion(oneStatOneJobGraph(logs, "EncDPS"))
 
-    return render_template("main/job.html", figDPS=figDPS, figHPS=figHPS)
+    return fig
 
 
 @bp.route("/player/<player>/<job>")

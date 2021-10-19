@@ -13,26 +13,26 @@ import os
 imgPath = os.path.join(os.path.dirname(__file__), "static/images")
 
 
-@bp.route("/")
-def index():
+@bp.route("/<stat>")
+def index(stat):
     """Render a view that display graphs of mean DPS and HPS for each job, sort by role"""
 
     # Get datas from DB
     logs = pandas.read_sql(LogEntry.query
                            .join(Role, (Role.Job == LogEntry.Job))
-                           .with_entities(LogEntry.Job, LogEntry.EncDPS, LogEntry.EncHPS, Role.Role)
+                           .with_entities(LogEntry.Job, getattr(LogEntry,stat), Role.Role)
                            .filter(LogEntry.Ally.like("T"))
                            .filter(LogEntry.Job.notlike("0"))
                            .statement,
                            con=db.engine)
 
-    fig = getJsonVersion(oneStatAllJobsGraph(logs, "EncDPS"))
+    fig = getJsonVersion(oneStatAllJobsGraph(logs, stat))
 
     return fig
 
 
-@bp.route("/role/<role>")
-def graph_role(role):
+@bp.route("/role/<stat>/<role>")
+def graph_role(stat, role):
     """Render a view that display graphs of mean EncDPS and EncHps for each job of a given role"""
 
     logs = pandas.read_sql(LogEntry.query
@@ -41,7 +41,7 @@ def graph_role(role):
                            .order_by(LogEntry.Job)
                            .statement, con=db.engine)
 
-    fig = getJsonVersion(oneStatAllJobOfRoleGraph(logs, "EncDPS"))
+    fig = getJsonVersion(oneStatAllJobOfRoleGraph(logs, stat))
 
     return fig
 

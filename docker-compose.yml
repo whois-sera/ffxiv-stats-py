@@ -1,0 +1,18 @@
+version: '3.8'
+
+networks:
+    dockerpi:
+      external: true
+
+# Services
+services:
+
+  # PHP Service
+  ffxivstatpy:
+    restart: always
+    build: ./
+    volumes:
+      - .:/usr/src/app
+    networks:
+      - dockerpi
+    command: ./ffxiv_stats.py

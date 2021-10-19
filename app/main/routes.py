@@ -45,6 +45,20 @@ def graph_role(stat, role):
 
     return fig
 
+@bp.route("/best/<stat>/<role>/<player>")
+def graph_best(stat, role, player):
+    """Render a view that display graphs of mean EncDPS and EncHps for each job of a given role"""
+
+    logs = pandas.read_sql(LogEntry.query
+                           .join(Role, (Role.Job == LogEntry.Job))
+                           .filter(Role.Role.like(role), LogEntry.Name.like(f"%{player}%"))
+                           .order_by(LogEntry.Job)
+                           .statement, con=db.engine)
+
+    fig = getJsonVersion(oneStatAllJobOfRoleGraph(logs, stat))
+
+    return fig
+
 @bp.route("/job/<stat>/<job>")
 def graph_job(stat, job):
     """Render a view that display graphs of mean EncDPS and EncHPS for a given job"""

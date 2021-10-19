@@ -7,7 +7,7 @@ import pandas as pandas
 import json
 import plotly
 import plotly.express as px
-from app.main.graph_maker import oneStatAllJobsGraph, oneStatAllJobOfRoleGraph, oneStatOneJobGraph, getJsonVersion
+from app.main.graph_maker import oneStatAllJobsGraph, oneStatAllJobOfRoleGraph, oneStatOneJobGraph, getJsonVersion, playerJobCompare
 import os
 
 imgPath = os.path.join(os.path.dirname(__file__), "static/images")
@@ -45,21 +45,41 @@ def graph_role(stat, role):
 
     return fig
 
-@bp.route("/job/<job>")
-def graph_job(job):
+@bp.route("/job/<stat>/<job>")
+def graph_job(stat, job):
     """Render a view that display graphs of mean EncDPS and EncHPS for a given job"""
 
     logs = pandas.read_sql(LogEntry.query
                            .filter(LogEntry.Job.like(job))
+                           .limit(20)
                            .statement, con=db.engine)
 
-    fig = getJsonVersion(oneStatOneJobGraph(logs, "EncDPS"))
+    fig = getJsonVersion(oneStatOneJobGraph(logs, stat))
 
     return fig
 
+@bp.route("/player/<stat>/<job>/<player>")
+def graph_player(stat, job, player):
+    """Render a view that display graphs of mean EncDPS and EncHPS for a given job"""
 
-@bp.route("/player/<player>/<job>")
-def undef(player, job):
+    logs = pandas.read_sql(LogEntry.query
+                           .filter(LogEntry.Job.like(job), LogEntry.Name.like(f"%{player}%"))
+                           .limit(20)
+                           .statement, con=db.engine)
+
+    fig = getJsonVersion(oneStatOneJobGraph(logs, stat))
+
+    return fig
+
+@bp.route("/recap/<stat>/<job>/<player>")
+def undef(stat, job, player):
     """"""
 
-    pass
+    logs = pandas.read_sql(LogEntry.query
+                           .filter(LogEntry.Job.like(job))
+                           .limit(20)
+                           .statement, con=db.engine)
+
+    fig = getJsonVersion(playerJobCompare(logs, stat, player))
+
+    return fig

@@ -1,7 +1,7 @@
 import json
 import plotly
 import plotly.express as px
-
+import pandas as pandas
 
 def oneStatAllJobsGraph(df, stat):
     """Return json datas for a graph that compare one given stat between each jobs"""
@@ -61,6 +61,27 @@ def oneStatOneJobGraph(df, stat):
                       "EncId": "Encounter",
                       stat: f"{stat}",
                   })
+
+    # Return Json version of the graph
+    return fig
+
+def playerJobCompare(df, stat, player):
+    """"""
+
+    job_mean = df[stat].mean()
+    df = df[df['Name'].str.contains(player, case=False, regex=False)]
+    player_mean = df[stat].mean()
+
+    d = {stat: [job_mean, player_mean]}
+    ndf = pandas.DataFrame(data=d, index=["Moyenne du job", "Moyenne du joueur"])
+
+    fig = px.bar(ndf,
+                 x=ndf.index,
+                 y=stat,
+                 labels={
+                     "x": "Job",
+                     stat: f"{stat} Moyen",
+                 })
 
     # Return Json version of the graph
     return fig

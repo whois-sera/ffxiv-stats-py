@@ -25,7 +25,7 @@ def register(app):
         act_files_dir = os.path.join(rootdir, os.environ.get("ACT_FILES_DIR"))
         if os.path.isdir(act_files_dir):
 
-            db.session.query(LogEntry).delete()
+            # db.session.query(LogEntry).delete()
             db.session.query(Encounter).delete()
             db.session.query(Role).delete()
             db.session.commit()
@@ -112,13 +112,16 @@ def register(app):
 
                 logs.to_sql("log_entry", con=db.engine,
                             if_exists="append", index=False, method="multi")
+                
+                #TODO Move file
+                os.rename(filepath, os.path.join(act_files_dir, "added", filename))
 
             encounters = pandas.read_sql(db.session.query(LogEntry.EncId)
                                          .distinct()
                                          .statement, con=db.engine)
 
             encounters.to_sql("encounter", con=db.engine,
-                              if_exists="append", index=False, method="multi")
+                               if_exists="append", index=False, method="multi")
 
             roles = pandas.DataFrame(
                 {

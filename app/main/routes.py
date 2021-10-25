@@ -11,6 +11,7 @@ import plotly.express as px
 from app.main.graph_maker import oneStatAllJobsGraph, oneStatAllJobOfRoleGraph, oneStatOneJobGraph, getJsonVersion, playerJobCompare
 import os
 import numpy as np
+import datetime
 
 imgPath = os.path.join(os.path.dirname(__file__), "static/images")
 actPath = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "act_files")
@@ -100,14 +101,17 @@ def recap(stat, job, player):
 
     return fig
 
+
 @bp.route("/upload", methods=["POST"])
 def upload():
     """"""
+    filename = f"{datetime.datetime.now().strftime('%Y-%m-%d-%H:%M:%S')}.xml"
     file = request.files['file']
     if file.filename != '':
-        file.save(os.path.join(actPath, file.filename))
+        file.save(os.path.join(actPath, filename))
 
-    return jsonify(f"File uploaded as {file.filename}")
+    return jsonify(f"File uploaded as {filename}")
+
 
 @bp.route("/import")
 def logimport():

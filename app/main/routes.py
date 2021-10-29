@@ -14,7 +14,9 @@ import numpy as np
 import datetime
 
 imgPath = os.path.join(os.path.dirname(__file__), "static/images")
-actPath = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "act_files")
+actPath = os.path.join(os.path.dirname(
+    os.path.dirname(os.path.dirname(__file__))), "act_files")
+
 
 @bp.route("/<stat>")
 def index(stat):
@@ -23,8 +25,7 @@ def index(stat):
     # Get datas from DB
     logs = pandas.read_sql(LogEntry.query
                            .join(Role, (Role.Job == LogEntry.Job))
-                           .with_entities(LogEntry.Job, getattr(LogEntry,stat), Role.Role)
-                           .filter(LogEntry.Ally.like("T"))
+                           .with_entities(LogEntry.Job, getattr(LogEntry, stat), Role.Role)
                            .filter(LogEntry.Job.notlike("0"))
                            .statement,
                            con=db.engine)
@@ -48,19 +49,34 @@ def graph_role(stat, role):
 
     return fig
 
+
 @bp.route("/best/<stat>/<role>/<player>")
 def graph_best(stat, role, player):
     """Render a view that display graphs of mean EncDPS and EncHps for each job of a given role"""
 
-    logs = pandas.read_sql(LogEntry.query
-                           .join(Role, (Role.Job == LogEntry.Job))
-                           .filter(Role.Role.like(role), LogEntry.Name.like(f"%{player}%"))
-                           .order_by(LogEntry.Job)
-                           .statement, con=db.engine)
+    if role == "all" or role == "All":
 
-    fig = getJsonVersion(oneStatAllJobOfRoleGraph(logs, stat))
+        logs = pandas.read_sql(LogEntry.query
+                               .join(Role, (Role.Job == LogEntry.Job))
+                               .with_entities(LogEntry.Job, getattr(LogEntry, stat), Role.Role)
+                               .filter(LogEntry.Job.notlike("0"), LogEntry.Name.like(f"%{player}%"))
+                               .statement,
+                               con=db.engine)
+
+        fig = getJsonVersion(oneStatAllJobsGraph(logs, stat))
+
+    else:
+
+        logs = pandas.read_sql(LogEntry.query
+                               .join(Role, (Role.Job == LogEntry.Job))
+                               .filter(Role.Role.like(role), LogEntry.Name.like(f"%{player}%"))
+                               .order_by(LogEntry.Job)
+                               .statement, con=db.engine)
+
+        fig = getJsonVersion(oneStatAllJobOfRoleGraph(logs, stat))
 
     return fig
+
 
 @bp.route("/job/<stat>/<job>")
 def graph_job(stat, job):
@@ -68,12 +84,12 @@ def graph_job(stat, job):
 
     logs = pandas.read_sql(LogEntry.query
                            .filter(LogEntry.Job.like(job))
-                           .limit(20)
                            .statement, con=db.engine)
 
     fig = getJsonVersion(oneStatOneJobGraph(logs, stat))
 
     return fig
+
 
 @bp.route("/player/<stat>/<job>/<player>")
 def graph_player(stat, job, player):
@@ -81,12 +97,12 @@ def graph_player(stat, job, player):
 
     logs = pandas.read_sql(LogEntry.query
                            .filter(LogEntry.Job.like(job), LogEntry.Name.like(f"%{player}%"))
-                           .limit(20)
                            .statement, con=db.engine)
 
     fig = getJsonVersion(oneStatOneJobGraph(logs, stat))
 
     return fig
+
 
 @bp.route("/recap/<stat>/<job>/<player>")
 def recap(stat, job, player):
@@ -94,7 +110,6 @@ def recap(stat, job, player):
 
     logs = pandas.read_sql(LogEntry.query
                            .filter(LogEntry.Job.like(job))
-                           .limit(20)
                            .statement, con=db.engine)
 
     fig = getJsonVersion(playerJobCompare(logs, stat, player))
@@ -117,10 +132,10 @@ def upload():
 def logimport():
     """Import all logs from ACT files folder into an sql db, replacing the whole content"""
 
-    rootdir = os.path.abspath(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+    rootdir = os.path.abspath(os.path.dirname(
+        os.path.dirname(os.path.dirname(__file__))))
     act_files_dir = os.path.join(rootdir, os.environ.get("ACT_FILES_DIR"))
     if os.path.isdir(act_files_dir):
-
 
         file_list = os.listdir(act_files_dir)
         if len(file_list) > 1:
@@ -164,25 +179,25 @@ def logimport():
 
                     # Some text manipulation
                     logs.replace(to_replace="YOU", value="Naaru Segawa",
-                                    limit=None, regex=False, inplace=True)
+                                 limit=None, regex=False, inplace=True)
                     logs.replace(to_replace="--", value="0",
-                                    limit=None, regex=False, inplace=True)
+                                 limit=None, regex=False, inplace=True)
                     logs.replace(to_replace=np.nan, value=0,
-                                    limit=None, regex=False, inplace=True)
+                                 limit=None, regex=False, inplace=True)
                     logs.replace(to_replace="-", value=0,
-                                    limit=None, regex=False, inplace=True)
+                                 limit=None, regex=False, inplace=True)
                     logs.replace(to_replace="∞", value=0,
-                                    limit=None, regex=False, inplace=True)
+                                 limit=None, regex=False, inplace=True)
                     logs.replace(to_replace="", value=0,
-                                    limit=None, regex=False, inplace=True)
+                                 limit=None, regex=False, inplace=True)
 
                     # Strip "%" and cast to float
                     logs["DamagePerc"] = (logs["DamagePerc"]
-                                            .str.strip("%")).astype(float)
+                                          .str.strip("%")).astype(float)
                     logs["HealedPerc"] = (logs["HealedPerc"]
-                                            .str.strip("%")).astype(float)
+                                          .str.strip("%")).astype(float)
                     logs["CritDamPerc"] = (logs["CritDamPerc"]
-                                            .str.strip("%")).astype(float)
+                                           .str.strip("%")).astype(float)
                     logs["CritHealPerc"] = (logs["CritHealPerc"]
                                             .str.strip("%")).astype(float)
                     logs["ParryPct"] = (logs["ParryPct"]
@@ -190,7 +205,7 @@ def logimport():
                     logs["BlockPct"] = (logs["BlockPct"]
                                         .str.strip("%")).astype(float)
                     logs["OverHealPct"] = (logs["OverHealPct"]
-                                            .str.strip("%")).astype(float)
+                                           .str.strip("%")).astype(float)
                     logs["DirectHitPct"] = (logs["DirectHitPct"]
                                             .str.strip("%")).astype(float)
                     logs["CritDirectHitPct"] = (logs["CritDirectHitPct"]
@@ -215,15 +230,16 @@ def logimport():
 
                     logs.to_sql("log_entry", con=db.engine,
                                 if_exists="append", index=False, method="multi")
-                    
-                    os.rename(filepath, os.path.join(act_files_dir, "added", filename))
+
+                    os.rename(filepath, os.path.join(
+                        act_files_dir, "added", filename))
 
             encounters = pandas.read_sql(db.session.query(LogEntry.EncId)
-                                            .distinct()
-                                            .statement, con=db.engine)
+                                         .distinct()
+                                         .statement, con=db.engine)
 
             encounters.to_sql("encounter", con=db.engine,
-                                if_exists="append", index=False, method="multi")
+                              if_exists="append", index=False, method="multi")
 
             roles = pandas.DataFrame(
                 {
@@ -243,8 +259,8 @@ def logimport():
             )
 
             roles.to_sql("role", con=db.engine, if_exists="append",
-                            index=False, method="multi")
-            
+                         index=False, method="multi")
+
             return jsonify("Import terminé")
 
         else:
@@ -258,9 +274,11 @@ def logimport():
 def infos():
     number_of_logEntry = LogEntry.query.count()
 
-    rootdir = os.path.abspath(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+    rootdir = os.path.abspath(os.path.dirname(
+        os.path.dirname(os.path.dirname(__file__))))
     act_files_dir = os.path.join(rootdir, os.environ.get("ACT_FILES_DIR"))
-    act_added_files_dir = os.path.join(rootdir, os.environ.get("ACT_FILES_DIR"), "added")
+    act_added_files_dir = os.path.join(
+        rootdir, os.environ.get("ACT_FILES_DIR"), "added")
 
     if os.path.isdir(act_added_files_dir):
         file_list = os.listdir(act_added_files_dir)
@@ -275,7 +293,19 @@ def infos():
         else:
             number_of_waiting_files = 0
 
-    return jsonify({"number_of_logEntry":number_of_logEntry,
-                    "number_of_files":number_of_files,
-                    "number_of_waiting_files":number_of_waiting_files,
+    return jsonify({"number_of_logEntry": number_of_logEntry,
+                    "number_of_files": number_of_files,
+                    "number_of_waiting_files": number_of_waiting_files,
                     })
+
+
+@bp.route("/jobs/<player>")
+def jobs(player):
+    logs = pandas.read_sql(LogEntry.query
+                           .with_entities(LogEntry.Job)
+                           .filter(LogEntry.Job.notlike("0"), LogEntry.Name.like(f"%{player}%"))
+                           .statement,
+                           con=db.engine)
+
+    logs = logs.value_counts(subset="Job")
+    return logs.to_json()
